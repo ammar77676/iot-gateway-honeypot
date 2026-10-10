@@ -135,15 +135,23 @@ The following results were observed during the local lab test:
 
 These results describe the observed test session. They do not establish that the prototype is production-ready or that every possible failure condition has been tested.
 
-## 5. Screenshots
+## ## 5. Screenshots
 
-The `docs/screenshots/` directory contains screenshots documenting the lab demonstration, including:
+The following screenshots document the ESP32 honeypot demonstration and the monitoring dashboard.
 
-- ESP32 Wi-Fi connection and Serial Monitor output.
-- The ESP32 gateway web interface.
-- The monitoring dashboard displaying recorded events.
+### ESP32 Wi-Fi Connection
 
-The screenshots provide visual evidence of the observed test results.
+![ESP32 Wi-Fi Connection](docs/screenshots/01_ESP32_WiFi_Connection.png)
+
+### Honeypot Web Interface
+
+![Honeypot Web Interface](docs/screenshots/02_Honeypot_Web_Interface.png)
+
+### Monitoring Dashboard
+
+![Monitoring Dashboard](docs/screenshots/03_Monitoring_Dashboard.png)
+
+These screenshots provide visual evidence of the observed local lab test results.
 
 ## Architecture
 
