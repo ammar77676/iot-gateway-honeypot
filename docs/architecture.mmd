@@ -1,0 +1,5 @@
+flowchart LR
+    Client[Authorized lab client] -->|HTTP request| ESP32[ESP32 honeypot web service]
+    ESP32 -->|Event JSON over LAN| Collector[Python Flask collector]
+    Collector --> DB[(SQLite event database)]
+    Collector --> Dashboard[Local monitoring dashboard]
